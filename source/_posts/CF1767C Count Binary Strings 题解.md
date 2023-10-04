@@ -1,11 +1,11 @@
 ---
-title: CF1767C题解
-date: 2023-10-03 11:56:56
-tags:
+title: CF1767C Count Binary Strings 题解
+tag:Codeforces
 mathjax: true
 ---
 
 # CF1767C Count Binary Strings 题解
+
 
 ## Foreword
 
@@ -29,7 +29,7 @@ $a_{i,j}$ 的含义如下：
 |    $1$     | 对于所有的 $i \le p \le q \le j$ 均有 $s_p=s_q$ |
 |    $2$     | 存在 $i \le p \le q \le j$ 使得 $s_p \neq s_q$  |
 
-求可能的 $s$ 的个数。**答案对 $998244353$ 取模。**
+求可能的 $s$ 的个数。**答案对 $998\,244\,353$ 取模。**
 
 
 对于 $100\%$ 的数据，$2 \le n \le 100$，$0 \le a_{i,j} \le 2$。
@@ -136,7 +136,7 @@ $$\begin{cases}
 dp_{i,i} = \sum_{j = mx_{i}}^{i - 1} dp_{i - 1,j} & \texttt{if } s_{i} \neq s_{i - 1}
 \end{cases}$$
 
-上面的方程实际上就是 相同的地方 复制了 前面第一个不同的地方 /kk
+上面的方程实际上就是 相同的地方 复制了 前面第一个不同的地方。
 
 定义 $k$ 为 $i$ 之前第一个不同的。有
 $$
@@ -149,7 +149,7 @@ $$
 
 因此实际上我们得到的是 $dp_{i,i} = \sum_{k}dp_{k,k} \ \texttt{ if } mx_{i} \leq k \leq i - 1$。
 
-优化掉第二维，有 $dp_{i} = \sum_{k = mx_{i}}^{i - 1}dp_{k}$。
+优化掉第二维，有 $dp_{i} = \sum_{k = mx_{i}}^{i - 1}dp_{k} $。
 
 **注意：这里有个问题，假设有按顺序 $A,B,C,D$ 四个块，如果限制 $B,C$ 不能相同，那么显然我们无法从 $A$ 到 $D$ 全部相同，因此我们 $mx$ 还要取一个前缀 $\operatorname{max}$**。
 
