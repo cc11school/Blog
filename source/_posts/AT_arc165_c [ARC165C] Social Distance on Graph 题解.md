@@ -1,6 +1,6 @@
 ---
-title: AT_arc165_c [ARC165C] Social Distance on Graph 题解
-tag:AtCoder
+title: "AT_arc165_c [ARC165C] Social Distance on Graph 题解"
+tag: AtCoder
 mathjax: true
 ---
 

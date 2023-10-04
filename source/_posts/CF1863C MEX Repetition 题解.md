@@ -1,6 +1,6 @@
 ---
-title: CF1863C MEX Repetition 题解
-tag:Codeforces
+title: "CF1863C MEX Repetition 题解"
+tag: Codeforces
 mathjax: true
 ---
 

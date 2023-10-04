@@ -1,6 +1,6 @@
 ---
-title: AT_arc165_b [ARC165B] Sliding Window Sort 2 题解
-tag:AtCoder
+title: "AT_arc165_b [ARC165B] Sliding Window Sort 2 题解"
+tag: AtCoder
 mathjax: true
 ---
 

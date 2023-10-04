@@ -1,6 +1,6 @@
 ---
-title: CF1767C Count Binary Strings 题解
-tag:Codeforces
+title: "CF1767C Count Binary Strings 题解"
+tag: Codeforces
 mathjax: true
 ---
 

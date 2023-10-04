@@ -1,6 +1,6 @@
 ---
-title: CF1863B Split Sort 题解
-tag:Codeforces
+title: "CF1863B Split Sort 题解"
+tag: Codeforces
 mathjax: true
 ---
 

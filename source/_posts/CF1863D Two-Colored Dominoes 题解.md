@@ -1,6 +1,6 @@
 ---
-title: CF1863D Two-Colored Dominoes 题解
-tag:Codeforces
+title: "CF1863D Two-Colored Dominoes 题解"
+tag: Codeforces
 mathjax: true
 ---
 

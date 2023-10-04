@@ -1,6 +1,6 @@
 ---
-title: AT_arc165_d [ARC165D] Substring Comparison 题解
-tag:AtCoder
+title: "AT_arc165_d [ARC165D] Substring Comparison 题解"
+tag: AtCoder
 mathjax: true
 ---
 

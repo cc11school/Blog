@@ -1,6 +1,6 @@
 ---
-title: [ARC165A] Sum equals LCM 题解
-tag:
+title: "[ARC165A] Sum equals LCM 题解"
+tag: 
 mathjax: true
 ---
 

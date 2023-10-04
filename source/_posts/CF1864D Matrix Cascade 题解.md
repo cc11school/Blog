@@ -1,6 +1,6 @@
 ---
-title: CF1864D Matrix Cascade 题解
-tag:Codeforces
+title: "CF1864D Matrix Cascade 题解"
+tag: Codeforces
 mathjax: true
 ---
 

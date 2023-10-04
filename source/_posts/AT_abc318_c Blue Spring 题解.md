@@ -1,6 +1,6 @@
 ---
-title: AT_abc318_c Blue Spring 题解
-tag:AtCoder
+title: "AT_abc318_c Blue Spring 题解"
+tag: AtCoder
 mathjax: true
 ---
 

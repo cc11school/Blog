@@ -1,6 +1,6 @@
 ---
-title: 洛谷 P9577 Dead Cells 题解
-tag:
+title: "洛谷 P9577 Dead Cells 题解"
+tag: 
 mathjax: true
 ---
 

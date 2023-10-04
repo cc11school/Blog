@@ -1,6 +1,6 @@
 ---
-title: CF1864B Swap and Reverse 题解
-tag:Codeforces
+title: "CF1864B Swap and Reverse 题解"
+tag: Codeforces
 mathjax: true
 ---
 

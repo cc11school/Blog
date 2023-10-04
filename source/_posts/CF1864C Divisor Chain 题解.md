@@ -1,6 +1,6 @@
 ---
-title: CF1864C Divisor Chain 题解
-tag:Codeforces
+title: "CF1864C Divisor Chain 题解"
+tag: Codeforces
 mathjax: true
 ---
 
