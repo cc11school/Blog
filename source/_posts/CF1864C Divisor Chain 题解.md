@@ -6,6 +6,9 @@ mathjax: true
 
 # CF1864C Divisor Chain 题解
 
+<!-- more -->
+
+
 ## Links
 
 [洛谷](https://www.luogu.com.cn/problem/CF1864C)

@@ -6,6 +6,9 @@ mathjax: true
 
 # CF587A Duff and Weight Lifting 题解
 
+<!-- more -->
+
+
 ## Link
 
 [Luogu](https://www.luogu.com.cn/problem/CF587A)

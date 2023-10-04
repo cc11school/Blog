@@ -6,6 +6,9 @@ mathjax: true
 
 # AT_arc165_d [ARC165D] Substring Comparison 题解
 
+<!-- more -->
+
+
 ## Links
 
 [洛谷](https://www.luogu.com.cn/problem/AT_arc165_d)

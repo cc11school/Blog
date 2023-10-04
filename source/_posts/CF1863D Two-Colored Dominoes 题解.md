@@ -6,6 +6,9 @@ mathjax: true
 
 # CF1863D Two-Colored Dominoes 题解
 
+<!-- more -->
+
+
 ## Links
 
 [洛谷](https://www.luogu.com.cn/problem/CF1863D)

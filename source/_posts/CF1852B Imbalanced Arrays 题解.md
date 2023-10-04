@@ -6,6 +6,9 @@ mathjax: true
 
 # CF1852B Imbalanced Arrays 题解
 
+<!-- more -->
+
+
 ## Links
 
 [洛谷](https://www.luogu.com.cn/problem/CF1852B)

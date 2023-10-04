@@ -6,6 +6,9 @@ mathjax: true
 
 # P9033「KDOI-04」XOR Sum 题解
 
+<!-- more -->
+
+
 ## 题目链接
 
 [传送门](https://www.luogu.com.cn/problem/P9033)

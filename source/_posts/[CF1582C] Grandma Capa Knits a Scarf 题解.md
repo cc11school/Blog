@@ -6,6 +6,8 @@ mathjax: true
 
 # Grandma Capa Knits a Scarf 题解
 
+<!-- more -->
+
 ##  Link
 
 [洛谷](https://www.luogu.com.cn/problem/CF1582C)

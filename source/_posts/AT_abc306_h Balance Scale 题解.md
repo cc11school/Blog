@@ -6,6 +6,9 @@ mathjax: true
 
 # AT_abc306_h Balance Scale 题解
 
+<!-- more -->
+
+
 ## Links
 
 [洛谷](https://www.luogu.com.cn/problem/AT_abc306_h)

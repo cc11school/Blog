@@ -6,6 +6,9 @@ mathjax: true
 
 # CF1833B Restore the Weather 题解
 
+<!-- more -->
+
+
 ## Link
 
 [洛谷](https://www.luogu.com.cn/problem/CF1833B)

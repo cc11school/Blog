@@ -6,6 +6,9 @@ mathjax: true
 
 # [ARC160B] Triple Pair
 
+<!-- more -->
+
+
 ## Link
 
 [Luogu](https://www.luogu.com.cn/problem/AT_arc160_b)

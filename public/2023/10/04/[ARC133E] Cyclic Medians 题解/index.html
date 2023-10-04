@@ -18,17 +18,17 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"cc11school.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.18.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac","show_result":true},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"cc11school.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":true,"version":"8.18.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac","show_result":true},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="[ARC133E] Cyclic Medians 题解 Links Luogu AtCoder Description 给你四个整数 \(N,M,V,A\)。 选择两个序列 \(x\) 和 \(y\)，其中 \(x\) 的长度为 \(n\)，\(y\) 的长度为 \(m\)。两个序列中数的值域均为 \([1,V]\)。 定义变量 \(a\)，初始值为 \(A\)。 依次对所有">
+    <meta name="description" content="[ARC133E] Cyclic Medians 题解">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[ARC133E] Cyclic Medians 题解">
 <meta property="og:url" content="https://cc11school.github.io/2023/10/04/[ARC133E]%20Cyclic%20Medians%20%E9%A2%98%E8%A7%A3/index.html">
 <meta property="og:site_name" content="长春市十一高中">
-<meta property="og:description" content="[ARC133E] Cyclic Medians 题解 Links Luogu AtCoder Description 给你四个整数 \(N,M,V,A\)。 选择两个序列 \(x\) 和 \(y\)，其中 \(x\) 的长度为 \(n\)，\(y\) 的长度为 \(m\)。两个序列中数的值域均为 \([1,V]\)。 定义变量 \(a\)，初始值为 \(A\)。 依次对所有">
+<meta property="og:description" content="[ARC133E] Cyclic Medians 题解">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-10-04T09:34:56.717Z">
-<meta property="article:modified_time" content="2023-10-04T09:34:56.858Z">
+<meta property="article:modified_time" content="2023-10-04T09:50:50.943Z">
 <meta property="article:author" content="cn_ryh">
 <meta property="article:tag" content="Blog">
 <meta name="twitter:card" content="summary">
@@ -154,7 +154,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">52</span>
+          <span class="site-state-item-count">50</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -219,8 +219,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-10-04 17:34:56" itemprop="dateCreated datePublished" datetime="2023-10-04T17:34:56+08:00">2023-10-04</time>
+      <time title="创建时间：2023-10-04 17:34:56 / 修改时间：17:50:50" itemprop="dateCreated datePublished" datetime="2023-10-04T17:34:56+08:00">2023-10-04</time>
     </span>
 
   
@@ -240,6 +241,7 @@
     
     
     <div class="post-body" itemprop="articleBody"><h1 id="arc133e-cyclic-medians-题解">[ARC133E] Cyclic Medians 题解</h1>
+<span id="more"></span>
 <h2 id="links">Links</h2>
 <p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT_arc133_e">Luogu</a></p>
 <p><a
@@ -394,7 +396,7 @@ $。利用快速幂求解即可。除了这些数量，剩余的就是出现相�
       </span>
     </span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
   </div>
 
     </div>

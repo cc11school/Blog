@@ -6,6 +6,9 @@ mathjax: true
 
 # CF1854B Earn or Unlock 题解
 
+<!-- more -->
+
+
 ## Link
 
 [洛谷](https://www.luogu.com.cn/problem/CF1854B)

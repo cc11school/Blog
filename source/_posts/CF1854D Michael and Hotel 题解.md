@@ -6,6 +6,9 @@ mathjax: true
 
 # CF1854D Michael and Hotel 题解
 
+<!-- more -->
+
+
 ## Links
 
 [洛谷](https://www.luogu.com.cn/problem/CF1854D)

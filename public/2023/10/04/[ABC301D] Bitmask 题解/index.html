@@ -18,17 +18,17 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"cc11school.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.18.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac","show_result":true},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"cc11school.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":true,"version":"8.18.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac","show_result":true},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="[ABC301D] Bitmask 题解 Links Luogu AtCoder Description 给你一个包含 ? 的 01 串，将每个 ? 替换为 0 或 1。找到对应的二进制数小于 \(n\) 的最大值或判断无解。 Solution 首先将所有 ? 视为 0，此时计算出的值若大于 \(n\) 则无解，否则从高位向低位枚举，判断是否能换为 1。根据倍增 LCA 和贪">
+    <meta name="description" content="[ABC301D] Bitmask 题解">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[ABC301D] Bitmask 题解">
 <meta property="og:url" content="https://cc11school.github.io/2023/10/04/[ABC301D]%20Bitmask%20%E9%A2%98%E8%A7%A3/index.html">
 <meta property="og:site_name" content="长春市十一高中">
-<meta property="og:description" content="[ABC301D] Bitmask 题解 Links Luogu AtCoder Description 给你一个包含 ? 的 01 串，将每个 ? 替换为 0 或 1。找到对应的二进制数小于 \(n\) 的最大值或判断无解。 Solution 首先将所有 ? 视为 0，此时计算出的值若大于 \(n\) 则无解，否则从高位向低位枚举，判断是否能换为 1。根据倍增 LCA 和贪">
+<meta property="og:description" content="[ABC301D] Bitmask 题解">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-10-04T09:34:59.599Z">
-<meta property="article:modified_time" content="2023-10-04T09:34:59.849Z">
+<meta property="article:modified_time" content="2023-10-04T09:50:49.246Z">
 <meta property="article:author" content="cn_ryh">
 <meta property="article:tag" content="Blog">
 <meta name="twitter:card" content="summary">
@@ -154,7 +154,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">52</span>
+          <span class="site-state-item-count">50</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -219,8 +219,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-10-04 17:34:59" itemprop="dateCreated datePublished" datetime="2023-10-04T17:34:59+08:00">2023-10-04</time>
+      <time title="创建时间：2023-10-04 17:34:59 / 修改时间：17:50:49" itemprop="dateCreated datePublished" datetime="2023-10-04T17:34:59+08:00">2023-10-04</time>
     </span>
 
   
@@ -240,6 +241,7 @@
     
     
     <div class="post-body" itemprop="articleBody"><h1 id="abc301d-bitmask-题解">[ABC301D] Bitmask 题解</h1>
+<span id="more"></span>
 <h2 id="links">Links</h2>
 <p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT_abc301_d">Luogu</a></p>
 <p><a
@@ -276,13 +278,13 @@ LCA 和贪心的思想，此时一定可得到最优解策略。理由：若某�
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2023/10/04/%5BABC301C%5D%20AtCoder%20Cards%20%E9%A2%98%E8%A7%A3/" rel="prev" title="[ABC301C] AtCoder Cards 题解">
-                  <i class="fa fa-angle-left"></i> [ABC301C] AtCoder Cards 题解
+                <a href="/2023/10/04/%5BARC160B%5D%20Triple%20Pair%20%E9%A2%98%E8%A7%A3/" rel="prev" title="[ARC160B] Triple Pair 题解">
+                  <i class="fa fa-angle-left"></i> [ARC160B] Triple Pair 题解
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2023/10/04/CF1828B%20Permutation%20Swap%20%E9%A2%98%E8%A7%A3/" rel="next" title="CF1828B Permutation Swap 题解">
-                  CF1828B Permutation Swap 题解 <i class="fa fa-angle-right"></i>
+                <a href="/2023/10/04/%5BABC301C%5D%20AtCoder%20Cards%20%E9%A2%98%E8%A7%A3/" rel="next" title="[ABC301C] AtCoder Cards 题解">
+                  [ABC301C] AtCoder Cards 题解 <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
@@ -327,7 +329,7 @@ LCA 和贪心的思想，此时一定可得到最优解策略。理由：若某�
       </span>
     </span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
   </div>
 
     </div>

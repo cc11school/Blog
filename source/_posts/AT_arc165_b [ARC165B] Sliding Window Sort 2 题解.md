@@ -6,6 +6,8 @@ mathjax: true
 
 # AT_arc165_b [ARC165B] Sliding Window Sort 2 题解
 
+<!-- more -->
+
 ## Links
 
 [洛谷](https://www.luogu.com.cn/problem/AT_arc165_b)

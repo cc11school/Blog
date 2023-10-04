@@ -6,6 +6,9 @@ mathjax: true
 
 # [ARC161A] Make M 题解
 
+<!-- more -->
+
+
 ## Link
 
 [洛谷](https://www.luogu.com.cn/problem/AT_arc161_a)

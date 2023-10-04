@@ -6,6 +6,9 @@ mathjax: true
 
 # CF1828B Permutation Swap 题解
 
+<!-- more -->
+
+
 ## Links
 
 [Luogu](https://www.luogu.com.cn/problem/CF1828B)

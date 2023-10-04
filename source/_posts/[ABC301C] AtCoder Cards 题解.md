@@ -6,6 +6,8 @@ mathjax: true
 
 # [ABC301C] AtCoder Cards 题解
 
+<!-- more -->
+
 ## Links
 
 [Luogu](https://www.luogu.com.cn/problem/AT_abc301_c)

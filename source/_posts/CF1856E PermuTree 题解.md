@@ -6,6 +6,8 @@ mathjax: true
 
 # CF1856E PermuTree 题解
 
+<!-- more -->
+
 该题解同时包括 E1 和 E2 的解法。
 
 ## Links

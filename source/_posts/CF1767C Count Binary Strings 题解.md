@@ -6,6 +6,9 @@ mathjax: true
 
 # CF1767C Count Binary Strings 题解
 
+<!-- more -->
+
+
 
 ## Foreword
 

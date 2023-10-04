@@ -6,6 +6,9 @@ mathjax: true
 
 # AT_arc165_c [ARC165C] Social Distance on Graph 题解
 
+<!-- more -->
+
+
 ## Links
 
 [洛谷](https://www.luogu.com.cn/problem/AT_arc165_c)

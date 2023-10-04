@@ -6,6 +6,8 @@ mathjax: true
 
 # CF1778C Flexible String 题解
 
+<!-- more -->
+
 ## Links
 
 [洛谷](https://www.luogu.com.cn/problem/CF1778C)

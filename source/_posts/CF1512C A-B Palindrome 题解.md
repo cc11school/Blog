@@ -6,6 +6,9 @@ mathjax: true
 
 # CF1512C A-B Palindrome 题解
 
+<!-- more -->
+
+
 ## Link
 
 [洛谷](https://www.luogu.com.cn/problem/CF1512C)

@@ -6,6 +6,8 @@ mathjax: true
 
 # 洛谷 P9577 Dead Cells 题解
 
+<!-- more -->
+
 ## Solution
 
 这道题的主要难点在于对于 $a > b$ 的特判。
